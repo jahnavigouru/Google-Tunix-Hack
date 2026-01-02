@@ -1,3 +1,5 @@
 .env
 intermediate_ckpt
 tensorboard
+wandb
+data
