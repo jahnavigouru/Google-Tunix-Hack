@@ -1,0 +1,34 @@
+{
+  "os":  "Linux-5.19.0-1022-gcp-x86_64-with-glibc2.35",
+  "python":  "CPython 3.12.12",
+  "startedAt":  "2026-01-02T11:56:26.361106Z",
+  "program":  "/home/jahnavigouru/Project/Google-Tunix-Hack/grpo-demo-gemma2-2b.ipynb",
+  "codePath":  "grpo-demo-gemma2-2b.ipynb",
+  "codePathLocal":  "grpo-demo-gemma2-2b.ipynb",
+  "git":  {
+    "remote":  "https://github.com/jahnavigouru/Google-Tunix-Hack.git",
+    "commit":  "c2d4fbca2101e65a93c491ad607f5dd643c7795f"
+  },
+  "email":  "jahnavi0801@gmail.com",
+  "root":  "/home/jahnavigouru/Project/Google-Tunix-Hack",
+  "host":  "t1v-n-41e9f496-w-0",
+  "executable":  "/home/jahnavigouru/.venv/bin/python",
+  "cpu_count":  56,
+  "cpu_count_logical":  112,
+  "disk":  {
+    "/":  {
+      "total":  "103865303040",
+      "used":  "24478965760"
+    }
+  },
+  "memory":  {
+    "total":  "202592694272"
+  },
+  "tpu":  {
+    "name":  "v5e",
+    "hbmGib":  16,
+    "devicesPerChip":  1,
+    "count":  4
+  },
+  "writerId":  "65csjkkkyisstmstxxted6xwjylyczr7"
+}

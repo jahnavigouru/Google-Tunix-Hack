@@ -1,0 +1,28 @@
+2026-01-02 14:03:48,377 INFO    MainThread:41336 [wandb_init.py:setup_run_log_directory():686] Logging user logs to /home/jahnavigouru/Project/Google-Tunix-Hack/wandb/run-20260102_140348-mxjln2hc/logs/debug.log
+2026-01-02 14:03:48,378 INFO    MainThread:41336 [wandb_init.py:setup_run_log_directory():687] Logging internal logs to /home/jahnavigouru/Project/Google-Tunix-Hack/wandb/run-20260102_140348-mxjln2hc/logs/debug-internal.log
+2026-01-02 14:03:48,378 INFO    MainThread:41336 [wandb_init.py:monkeypatch_ipython():605] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7ef84cbf97f0>
+2026-01-02 14:03:48,378 INFO    MainThread:41336 [wandb_init.py:init():813] calling init triggers
+2026-01-02 14:03:48,378 INFO    MainThread:41336 [wandb_init.py:init():818] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2026-01-02 14:03:48,737 INFO    MainThread:41336 [wandb_init.py:init():861] starting backend
+2026-01-02 14:03:48,737 INFO    MainThread:41336 [wandb_init.py:init():864] sending inform_init request
+2026-01-02 14:03:48,738 INFO    MainThread:41336 [wandb_init.py:init():872] backend started and connected
+2026-01-02 14:03:48,741 INFO    MainThread:41336 [wandb_run.py:_label_probe_notebook():1330] probe notebook
+2026-01-02 14:03:48,743 INFO    MainThread:41336 [wandb_init.py:init():942] updated telemetry
+2026-01-02 14:03:48,747 INFO    MainThread:41336 [wandb_init.py:init():966] communicating run to backend with 90.0 second timeout
+2026-01-02 14:03:49,016 INFO    MainThread:41336 [wandb_init.py:init():1017] starting run threads in backend
+2026-01-02 14:03:49,157 INFO    MainThread:41336 [wandb_run.py:_console_start():2506] atexit reg
+2026-01-02 14:03:49,157 INFO    MainThread:41336 [wandb_run.py:_redirect():2354] redirect: wrap_raw
+2026-01-02 14:03:49,157 INFO    MainThread:41336 [wandb_run.py:_redirect():2423] Wrapping output streams.
+2026-01-02 14:03:49,158 INFO    MainThread:41336 [wandb_run.py:_redirect():2446] Redirects installed.
+2026-01-02 14:03:49,158 INFO    MainThread:41336 [wandb_init.py:init():1057] run started, returning control to user process
+2026-01-02 14:03:50,361 INFO    MainThread:41336 [wandb_init.py:_post_run_cell_hook():575] [no run ID] resuming backend
+2026-01-02 14:03:50,620 INFO    MainThread:41336 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2026-01-02 14:03:50,620 INFO    MainThread:41336 [wandb_init.py:_pre_run_cell_hook():564] [no run ID] pausing backend
+2026-01-02 15:30:55,007 INFO    MainThread:41336 [wandb_run.py:_finish():2272] finishing run jahnavi0801-stony-brook-university/tunix/mxjln2hc
+2026-01-02 15:30:55,008 INFO    MainThread:41336 [jupyter.py:save_ipynb():404] not saving jupyter notebook
+2026-01-02 15:30:55,008 INFO    MainThread:41336 [wandb_init.py:_jupyter_teardown():590] cleaning up jupyter logic
+2026-01-02 15:30:55,009 INFO    MainThread:41336 [wandb_run.py:_atexit_cleanup():2471] got exitcode: 0
+2026-01-02 15:30:55,009 INFO    MainThread:41336 [wandb_run.py:_restore():2453] restore
+2026-01-02 15:30:55,009 INFO    MainThread:41336 [wandb_run.py:_restore():2459] restore done
+2026-01-02 15:30:55,321 INFO    MainThread:41336 [wandb_run.py:_footer_sync_info():3867] logging synced files

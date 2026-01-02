@@ -1,1 +1,3 @@
 .env
+intermediate_ckpt
+tensorboard
