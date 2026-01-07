@@ -321,7 +321,7 @@ def train_prm (
             if accumulated_grads is None:
                     accumulated_grads = grads
             else:
-                accumulated_grads = jax.tree_map(lambda a, b: a + b, accumulated_grads, grads)
+                accumulated_grads = jax.tree.map(lambda a, b: a + b, accumulated_grads, grads)
 
             loss_sum += float(loss)
             step += 1
@@ -332,7 +332,7 @@ def train_prm (
                 params = optax.apply_updates(params, updates)
                 avg_loss = loss_sum / gradient_accumulation_steps
 
-                accumulated_grads = jax.tree_map(lambda x: jnp.zeros_like(x), accumulated_grads)
+                accumulated_grads = jax.tree.map(lambda x: jnp.zeros_like(x), accumulated_grads)
                 loss_sum = 0.0
 
                 current_lr = schedule(global_step)
