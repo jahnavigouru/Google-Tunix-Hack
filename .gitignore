@@ -4,4 +4,4 @@ intermediate_ckpt
 wandb
 data
 venv
-prm_checkpoints.tar.gzprm_checkpoints.tar.gz
+prm_checkpoints.tar.gz
