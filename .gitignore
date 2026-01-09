@@ -5,3 +5,4 @@ wandb
 data
 venv
 prm_checkpoints.tar.gz
+prm_checkpoints
